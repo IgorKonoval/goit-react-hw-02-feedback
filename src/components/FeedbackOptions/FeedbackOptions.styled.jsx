@@ -7,14 +7,14 @@ export const DivButtons = styled.div`
 export const Button = styled.button`
   width: 100%;
   height: 30px;
-  border: solid 2px lightgrey;
+  text-transform: capitalize;
+  border: solid 1px gray;
   border-radius: 5px;
   cursor: pointer;
   &:hover,
   &:focus {
-    color: white;
+    color: #fff;
     background-color: darkgrey;
-    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
-      5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 3px 3px 8px 0px #5021d1, inset 4px 4px 15px 0px #5021d1;
   }
 `;
